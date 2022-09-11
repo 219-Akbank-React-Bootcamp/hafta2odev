@@ -1,4 +1,4 @@
-import state from "../state.js"
+import state from '../state.js'
 
 const AddProductForm = () => {
     return `<form  class="addProductForm__form">

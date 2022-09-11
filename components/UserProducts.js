@@ -1,3 +1,5 @@
+import state from '../state.js'
+
 const UserProducts = (props) => {
     const userProducts = state.userList.find(
       (user) => user.id === props.userId

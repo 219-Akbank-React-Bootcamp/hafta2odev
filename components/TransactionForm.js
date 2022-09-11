@@ -1,9 +1,11 @@
-import state from "../state.js"
+import state from '../state.js'
+
 import UserSelectList from "./UserSelectList.js"
 
 const TransactionForm = () => {
     return `<form>
       ${UserSelectList({
+        placeholder:"Gönderen seçiniz",
         name: 'sender',
         stateControl: 'inputTransactionSender',
         value: `${state.inputTransactionSender}`,
@@ -13,6 +15,7 @@ const TransactionForm = () => {
       }" onchange="handleOnChangeText(event,'inputAmount')"  type="text" name="amount" placeholder="miktar"/>
       ${UserSelectList({
         name: 'receiver',
+        placeholder:"Alıcı seçiniz",
         stateControl: 'inputTransactionReceiver',
         hidden: `${state.inputTransactionSender}`,
       })}

@@ -1,4 +1,4 @@
-import state from "../state.js"
+import state from '../state.js'
 
 const ProductListProduct = (props) => {
     return `<li class="productListProduct__li">

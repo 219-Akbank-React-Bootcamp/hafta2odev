@@ -1,8 +1,10 @@
-import state from "../state.js"
+import state from '../state.js'
+
 const UserSelectList = (props) => {
     return `<select onchange="javascript:handleOnChangeText(event,'${
       props.stateControl
     }')" name="${props.name}">
+    <option>${props.placeholder}</option>
       ${state.userList
         .filter((user) => user.id !== props.hidden)
         .map(

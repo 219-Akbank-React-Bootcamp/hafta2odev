@@ -4,11 +4,11 @@ const state = {
     inputAdSoyad: '',
     inputBakiye: '',
     inputAmount: '',
-    inputSellProduct: '1',
-    inputTransactionSender: '1',
-    inputTransactionReceiver: '2',
-    inputTradeSeller: '1',
-    inputTradeBuyer: '2',
+    inputSellProduct: '',
+    inputTransactionSender: '',
+    inputTransactionReceiver: '',
+    inputTradeSeller: '',
+    inputTradeBuyer: '',
     inputProductName: '',
     inputQuantity: '',
     inputPrice: '',
@@ -33,4 +33,4 @@ const state = {
     ],
   }
 
-  export default state
+export default state
