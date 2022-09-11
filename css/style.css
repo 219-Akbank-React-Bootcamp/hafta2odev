@@ -1,0 +1,29 @@
+.container {
+    width:1300px;
+    border:1px solid red;
+    height:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
+}
+.addUserForm__form {
+    display:flex;
+    flex-direction:column
+}
+ul{
+    list-style-type:none;
+    margin:0;padding:0
+}
+li {margin:0;padding:0}
+.userListUser__li {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
+}
+.userListUser__text span{
+    margin-right:5px
+}
+.userListUser__li div{
+    display:flex;
+}
