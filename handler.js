@@ -120,5 +120,5 @@ const handleUnselectCurrentUser = () => {
   handleTrade,
   handleUnselectCurrentUser,
 ].forEach((handler) => (window[handler.name] = handler))
-console.log(window)
+
 
