@@ -1,5 +1,5 @@
 .container {
-  width: 1300px;
+  width: 1000px;
   border: 1px solid red;
   height: 500px;
   margin: auto;
@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 .addUserForm__form {
+  display: flex;
+  flex-direction: column;
+}
+.addProductForm__form {
   display: flex;
   flex-direction: column;
 }
@@ -30,4 +34,19 @@ li {
 }
 .userListUser__li div {
   display: flex;
+}
+
+.productListProduct__li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.productListProduct__text span {
+  margin-right: 5px;
+}
+.productListProduct__li div {
+  display: flex;
+}
+.strong {
+  font-weight: bold;
 }
